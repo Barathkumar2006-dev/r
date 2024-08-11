@@ -1,0 +1,167 @@
+/* genral setup */
+
+*{margin:0;
+  padding:0;
+  box-sizing:border-box;}
+
+/* main-content-1 */
+
+.text-content{text-align:center;
+              margin:3% auto;
+}
+
+.text-content h1{font-size:2.6rem;
+                 font-weight:700;
+                 line-height:50px;
+                 font-family:'poppins',sans-serif;
+                 text-transform:capitalize;}
+
+.text-content .light{font-weight:100;
+                     color:rgba(0, 0, 0, 0.589);}
+        
+.text-content p{font-weight:500;
+                text-transform:capitalize;
+                line-height:25px;
+                font-size:1rem;
+                color:rgba(0, 0, 0, 0.601);
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, 
+                Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.main{background:rgba(255,255,255,0.1);
+      box-shadow:1px 2px 5px rgba(0, 0, 0, 0.396);
+      max-width:350px;
+      margin:0 3%;
+      border-radius:8px;
+      height:250px;}
+
+.main-box .one h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight:500;
+      text-transform:capitalize;
+      font-size:19px;
+}
+
+.main-box .one p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight:700;
+     font-size:12px;
+     color:rgba(0, 0, 0, 0.51);
+     line-height:20px;
+     text-transform:capitalize;
+}
+
+.main-box .one{padding:30px;
+               border-top:5px solid hsl(212, 86%, 64%);}
+
+
+.main-box .two h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight:500;
+                text-transform:capitalize;
+                font-size:19px;
+          }
+          
+.main-box .two p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               font-weight:700;
+               font-size:12px;
+               color:rgba(0, 0, 0, 0.51);
+               line-height:20px;
+               text-transform:capitalize;
+          }
+          
+.main-box .two{padding:30px;
+               border-top:5px solid hsl(0, 78%, 62%);}
+
+
+.main-box .three h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight:500;
+                text-transform:capitalize;
+                font-size:19px;
+          }
+          
+.main-box .three p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               font-weight:700;
+               font-size:12px;
+               color:rgba(0, 0, 0, 0.51);
+               line-height:20px;
+               text-transform:capitalize;
+          }
+          
+.main-box .three{padding:30px;
+               border-top:5px solid hsl(212, 86%, 64%);}
+
+
+.main-box .four h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight:500;
+                text-transform:capitalize;
+                font-size:19px;
+          }
+          
+.main-box .four p{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               font-weight:700;
+               font-size:12px;
+               color:rgba(0, 0, 0, 0.51);
+               line-height:20px;
+               text-transform:capitalize;
+          }
+          
+.main-box .four{padding:30px;
+               border-top:5px solid  hsl(34, 97%, 64%);
+}
+
+
+.main-box{display:grid;
+          grid-template-columns:repeat(4,1fr);
+          gap:1.5rem;
+}
+
+.special{display:flex;
+         flex-direction:column;
+         width:370px;
+         transform:translateY(-10px);
+         gap:2.5rem;
+}
+
+
+.make{display:flex;
+      align-items:center;
+      justify-content:center;}
+
+
+/* responsive-area*/
+
+@media screen and (max-width:1000px)
+{
+
+.special{display:flex;
+        flex-direction:column;
+        margin:3.5% auto;}
+
+
+.main-box{display:flex;
+          flex-direction:column;}
+     
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
